@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Main{
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
+        metodos Metodos = new  metodos();
         int op = 0;
 
         do{
@@ -23,12 +24,16 @@ public class Main{
 
             switch(op){
                 case 1:
+                    Metodos.RegistrarVehiculo();
                     break;
                 case 2:
+                    Metodos.MostrarVehiculos();
                     break;
                 case 3:
+                    Metodos.BuscarVehiculo();
                     break;
                 case 4:
+                    Metodos.MostrarMarca();
                     break;
                 case 5:
                     break;
