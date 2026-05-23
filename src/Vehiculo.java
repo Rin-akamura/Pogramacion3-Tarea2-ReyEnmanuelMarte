@@ -73,12 +73,18 @@ public class Vehiculo {
     }
 
     public void MostrarVehiculo(){
+        System.out.println("========================================");
+        System.out.println("             .::VEHICULO::.             ");
+        System.out.println("========================================");
+
+        System.out.println("----------------------------------------");
         System.out.println("Marca: " + Marca);
         System.out.println("Placa: " + Placa);
         System.out.println("Modelo: " + Modelo);
         System.out.println("Año: " + Año);
         System.out.println("Color: " + Color);
         System.out.println("Precio: " + Precio);
+        System.out.println("----------------------------------------");
     }
     
 }
