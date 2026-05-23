@@ -1,13 +1,14 @@
 import java.util.Scanner;
 public class metodos {
     Scanner scanner = new Scanner(System.in);
-    Vehiculo vehiculo = new Vehiculo();
+   
     Vehiculo[] registro = new Vehiculo[200];
     int TotalVehiculos = 0;
     public metodos () {
     }
 
     public void RegistrarVehiculo(){
+         Vehiculo vehiculo = new Vehiculo();
 
         System.out.println("=========================================");
         System.out.println("          .::REGISTRAR VEHICULO::.       ");
